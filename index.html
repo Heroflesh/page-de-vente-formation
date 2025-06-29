@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation en Ligne - Inscrivez-vous !</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Transformez Votre Vie avec Notre Formation</h1>
+        <p>Rejoignez des milliers de coachs et formateurs pour maîtriser [domaine] en 30 jours !</p>
+        <a href="#inscription" class="btn">S'inscrire Maintenant</a>
+    </header>
+    <section class="formateur">
+        <h2>Rencontrez Votre Formateur</h2>
+        <video controls poster="assets/images/formateur.jpg" class="formateur-video">
+            <source src="assets/videos/formateur.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+    </section>
+    <section class="benefices">
+        <h2>Ce que Vous Allez Apprendre</h2>
+        <ul class="benefices-list">
+            <li><strong>Maîtrise rapide</strong> : Devenez expert en [compétence].</li>
+            <li><strong>Stratégies pratiques</strong> : Appliquez dès le premier jour.</li>
+            <li><strong>Support exclusif</strong> : Accès à une communauté privée.</li>
+        </ul>
+    </section>
+    <section class="programme">
+        <h2>Programme de la Formation</h2>
+        <div class="module">
+            <h3>Module 1 : Les Bases</h3>
+            <p>Apprenez les fondamentaux pour démarrer rapidement.</p>
+        </div>
+        <div class="module">
+            <h3>Module 2 : Techniques Avancées</h3>
+            <p>Maîtrisez des stratégies professionnelles.</p>
+        </div>
+    </section>
+    <section class="temoignages">
+        <h2>Ce Qu'en Disent Nos Clients</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p>"Cette formation a changé ma vie !" - Jean</p>
+                </div>
+                <div class="swiper-slide">
+                    <p>"Un contenu incroyable !" - Marie</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <section class="compteur">
+        <h2>Offre Limitée !</h2>
+        <p>Inscrivez-vous avant : <span id="countdown"></span></p>
+    </section>
+    <section class="bonus">
+        <h2>Bonus Exclusifs</h2>
+        <ul class="bonus-list">
+            <li>Ebook gratuit : "Les Secrets de [Domaine]"</li>
+            <li>Accès à une communauté privée</li>
+        </ul>
+    </section>
+    <section class="garantie">
+        <h2>Garantie 100% Satisfait ou Remboursé</h2>
+        <p>Si vous n'êtes pas satisfait dans les 30 jours, nous vous remboursons intégralement.</p>
+    </section>
+    <section class="cta">
+        <h2>Rejoignez la Formation Maintenant !</h2>
+        <a href="#inscription" class="btn">S'inscrire Maintenant</a>
+    </section>
+    <section id="inscription" class="formulaire">
+        <h2>Inscrivez-vous dès Maintenant</h2>
+        <form action="submit.html" method="POST">
+            <input type="text" name="nom" placeholder="Nom" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <button type="submit" class="btn">Valider mon Inscription</button>
+        </form>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
